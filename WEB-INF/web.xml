@@ -1,0 +1,76 @@
+<web-app>
+    <servlet>
+        <servlet-name>getItem</servlet-name>
+        <servlet-class>servlet.getItem</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>getItem</servlet-name>
+        <url-pattern>/getItem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>restock</servlet-name>
+        <servlet-class>servlet.restock</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>restock</servlet-name>
+        <url-pattern>/restock</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>reshelve</servlet-name>
+        <servlet-class>servlet.reshelve</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>reshelve</servlet-name>
+        <url-pattern>/reshelve</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TotalSalesReportServlet</servlet-name>
+        <servlet-class>servlet.TotalSalesReportServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ReshelveReportServlet</servlet-name>
+        <servlet-class>servlet.ReshelveReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReshelveReportServlet</servlet-name>
+        <url-pattern>/ReshelveReportServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReorderReportServlet</servlet-name>
+        <servlet-class>servlet.ReorderReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReorderReportServlet</servlet-name>
+        <url-pattern>/ReorderReportServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StockReportServlet</servlet-name>
+        <servlet-class>servlet.StockReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StockReportServlet</servlet-name>
+        <url-pattern>/StockReportServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BillReportServlet</servlet-name>
+        <servlet-class>servlet.BillReportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BillReportServlet</servlet-name>
+        <url-pattern>/BillReportServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

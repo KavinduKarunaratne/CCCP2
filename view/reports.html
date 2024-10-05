@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        button {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reports</h1>
+    <nav>
+        <form action="/CCCP2/TotalSalesReportServlet">
+            <button type="submit">Total Sales Report</button>
+        </form>
+        <form action="/CCCP2/ReshelveReportServlet">
+            <button type="submit">Re-Shelve Report</button>
+        </form>
+        <form action="/CCCP2/ReorderReportServlet">
+            <button type="submit">Re-Order Report</button>
+        </form>
+        <form action="/CCCP2/StockReportServlet">
+            <button type="submit">Stock Report</button>
+        </form>
+        <form action="/CCCP2/BillReportServlet">
+            <button type="submit">Bill Report</button>
+        </form>
+    </nav>
+</body>
+</html>

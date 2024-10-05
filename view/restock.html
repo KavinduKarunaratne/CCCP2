@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="billing.css">
+</head>
+<body>
+    <h1>Restock</h1>
+    <div class="login-box">
+        <h2>Add Item</h2>
+        <form action="/CCCP2/restock">
+            <div class="user-box">
+                <input type="text" name="code" id="code" required="">
+                <label>Code</label>
+            </div>
+            <div class="user-box">
+                <input type="number" name="quantity" id="quantity" required="">
+                <label>Quantity</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="purchase" id="purchase" required="">
+                <label>Purchase Date (yyyy-mm-dd)</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="expiry" id="expiry" required="">
+                <label>Expiry Date (yyyy-mm-dd)</label>
+            </div>
+            <!--            <div class="user-box">-->
+            <!--                <input type="password" name="" required="">-->
+            <!--                <label>Discount</label>-->
+            <!--            </div>-->
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
